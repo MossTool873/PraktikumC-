@@ -9,7 +9,7 @@ int main()
     string namaKaryawan;
     int jumlahJamkerja;
     int tarifPerJam;
-    cout << left; // Meratakan ke kiri
+    cout << left; 
     cout << setw(30) << "Masukkan nama karyawan" << ": ";
     cin >> namaKaryawan;
     cout << setw(30) << "Masukkan jumlah jam kerja" << ": ";

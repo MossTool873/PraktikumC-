@@ -11,6 +11,20 @@ int main()
     double averageScore = 85.75;
     bool isPassed = true;
     // Output dengan format tabel
+
+    cout << left; 
+    cout << setw(30) << "Masukkan Nama Lengkap " << ": ";
+    cin >> fullName;
+    cout << setw(30) << "Masukkan Usia" << ": ";
+    cin >> age;
+    cout << setw(30) << "Masukkan Tinggi Badan" << ": ";
+    cin >> height;
+    cout << setw(30) << "Masukkan Nilai Rata-Rata" << ": ";
+    cin >> averageScore;
+    cout << setw(30) << "Masukkan Status Kelulusan (0:Tidak/1:Ya)" << ": ";
+    cin >> isPassed;
+
+    cout << "=========================================================\n";
     cout << left; // Meratakan ke kiri
     cout << setw(20) << "Nama Lengkap"     << ": " << fullName << endl;
     cout << setw(20) << "Usia"             << ": " << age      << " tahun "       << endl;
