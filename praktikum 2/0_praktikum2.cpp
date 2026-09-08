@@ -10,7 +10,6 @@ int main()
     float height = 168.5;
     double averageScore = 85.75;
     bool isPassed = true;
-    // Output dengan format tabel
 
     cout << left; 
     cout << setw(30) << "Masukkan Nama Lengkap " << ": ";
