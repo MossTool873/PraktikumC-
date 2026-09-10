@@ -26,5 +26,5 @@ int main()
 
     cout << "==========================" << endl << left;
     cout << setw(15) << "Rata-rata" << ": " << fixed << setprecision(2) << rataRata << endl;
-    cout << setw(15) << "Standar Deviasi " << ": " << fixed << setprecision(2) << sqrt(totalSelisihKuadrat/size(angka)) << endl;
+    cout << setw(15) << "Standar Deviasi" << ": " << fixed << setprecision(2) << sqrt(totalSelisihKuadrat/size(angka)) << endl;
 }

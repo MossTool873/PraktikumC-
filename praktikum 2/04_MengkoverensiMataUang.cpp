@@ -9,10 +9,10 @@ int main()
 
     cout << "masukkan jumlah rupiah: ";
     cin >> rupiah;
-    cout << "kursDolar             : ";
+    cout << "masukkan kursDolar    : ";
     cin >> kursDolar;
 
     cout << "==========================" << endl << left;
     cout << setw(15) << "Jumlah Rupiah " << ": Rp " << rupiah << endl;
-    cout << setw(15) << "Jumlah Dollar " << ": $ " << fixed << setprecision(2) << float(rupiah/kursDolar)<< endl;
+    cout << setw(15) << "Jumlah Dollar " << ": $ " << fixed << setprecision(2) << rupiah/kursDolar<< endl;
 }

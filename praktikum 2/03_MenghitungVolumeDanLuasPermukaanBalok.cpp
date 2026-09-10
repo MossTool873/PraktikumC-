@@ -16,7 +16,7 @@ int main()
     cin >> tinggi;
 
     cout << "==================" << endl;
-
+    cout << left;
     cout << setw(20) << "panjang" << setw(20) << "lebar" << setw(20) << "tinggi" << setw(20) << "volume" << setw(20) << "Luas Permukaan" << endl;
     cout << setw(20) << panjang
          << setw(20) << lebar

@@ -20,12 +20,10 @@ int main()
     cout << "masukkan harga cat per liter: ";
     cin >> hargaCat;
 
-    luasPermukaan = (float)2 * (panjang * lebar + panjang * tinggi + lebar * tinggi);
+    luasPermukaan = (float)2 * (  panjang * tinggi + lebar * tinggi);
     cout << "============================================" << endl << left;
-    cout << setw(30) << "Total Biaya Bahan Bakar " << ": " << fixed << setprecision(2) << luasPermukaan << " m^2" << endl;
-    cout << setw(30) << "Total Biaya Bahan Bakar " << ": " << fixed << setprecision(2) << luasPermukaan/10 << " liter" << endl;
-    cout << setw(30) << "Total Biaya Bahan Bakar " << ": Rp " << fixed << setprecision(2) << luasPermukaan/10*hargaCat << endl;
-
-
+    cout << setw(30) << "Luas Dinding" << ": " << fixed << setprecision(2) << luasPermukaan << " m^2" << endl;
+    cout << setw(30) << "Cat yang Dibutuhkan " << ": " << fixed << setprecision(2) << luasPermukaan/10 << " liter" << endl;
+    cout << setw(30) << "Total Biaya Cat " << ": Rp " << fixed << setprecision(2) << luasPermukaan/10*hargaCat << endl;
 
 }

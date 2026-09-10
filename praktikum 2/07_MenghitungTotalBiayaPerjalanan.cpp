@@ -8,11 +8,11 @@ int main()
     float konsumsiBahanBakar;
     float hargaBahanBakar;
 
-    cout << "masukkan jarak tempuh (km)               : ";
+    cout << "masukkan jarak tempuh (km)            : ";
     cin >> jarakTempuh;
-    cout << "masukkan konsumsi bahan bakar(km/l)      : ";
+    cout << "masukkan konsumsi bahan bakar(km/l)   : ";
     cin >> konsumsiBahanBakar;
-    cout << "masukkan konsumsi harga bahan bakar(Rp/l): ";
+    cout << "masukkan harga bahan bakar(Rp/l)      : ";
     cin >> hargaBahanBakar;
 
     cout << "============================================" << endl << left;
