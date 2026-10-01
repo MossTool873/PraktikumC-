@@ -16,6 +16,7 @@ int main()
     {
         totalHarga = 0;
         totalHargaSetelahDiskon = 0;
+        potonganDiskon = 0;
 
         cout << "Masukkan jumlah barang : ";
         cin >> jumlahBarang;

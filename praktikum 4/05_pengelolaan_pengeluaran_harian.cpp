@@ -45,10 +45,10 @@ int main()
             totalKeseluruhan += masukanSaatIni;
         }
         cout << endl;
-        cout << "Total pengeluaran Makanan : Rp " << totalMakanan << endl;
-        cout << "Total pengeluaran Transportasi : Rp " << totalTransportasi << endl;
-        cout << "Total pengeluaran Hiburan : Rp " << totalHiburan << endl;
-        cout << "Total pengeluaran Lain-lain : Rp " << totalLainlain << endl;
+        cout << "Total pengeluaran Makanan         : Rp " << totalMakanan << endl;
+        cout << "Total pengeluaran Transportasi    : Rp " << totalTransportasi << endl;
+        cout << "Total pengeluaran Hiburan         : Rp " << totalHiburan << endl;
+        cout << "Total pengeluaran Lain-lain       : Rp " << totalLainlain << endl;
         cout << "Total pengeluaran Selama Seminggu : Rp " << totalKeseluruhan << endl;
 
         pengeluaranTertinggi = totalMakanan;
