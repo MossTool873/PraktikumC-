@@ -3,15 +3,27 @@
 
 using namespace std;
 
+void c(int &x){
+x += 3;
+}
+
 int main()
 {
     int sum = 0;
+    c(sum);
+    cout << sum;
+    
 
-    for (int i = 1; i <= 5; i++)
+}
+
+double sqrt_manual(double n)
+{
+    double x = n;
+
+    for (int i = 0; i < 20; i++)
     {
-        sum += i;
-        cout << "i: " << i << ", Sum: " << sum << endl;
+        x = (x + n / x) / 2;
     }
 
-    cout << "Total: " << sum << endl;
+    return x;
 }
