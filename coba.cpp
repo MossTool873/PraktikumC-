@@ -2,16 +2,29 @@
 #include <iomanip>
 
 using namespace std;
-
-
+void nolkan(int &x);
 int main()
 {
-    int arr[5] = {1,2,3,4,5};
-    for (int i = 0; i <= 5 ; i++)
-    {
-        cout << arr[i] << " ";
-    }
     
+  int food = 55;  // A string variable
+  int *ptr = &food;  // A pointer variable that stores the address of food
+
+  nolkan(food);
+
+  cout << food << "\n\n";
+
+  cout << &food << "\n\n";
+
+  cout << ptr << "\n\n";
+  
+  cout << *ptr << "\n\n";
+
+
+  return 0;
+}
+    
+void nolkan(int &x){
+    x = 0;
 }
 
 // double sqrt_manual(double n)
